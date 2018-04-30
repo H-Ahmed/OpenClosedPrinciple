@@ -7,5 +7,6 @@ public class Main {
         SorterManager sorterManager = new SorterManager();
         sorterManager.sort(new MergeSort());
         sorterManager.sort(new InsertionSort());
+        sorterManager.sort(new QuickSort());
     }
 }

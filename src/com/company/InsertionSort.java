@@ -1,13 +1,9 @@
 package com.company;
 
-public class InsertionSort extends Sorter {
-
-    public InsertionSort () {
-        super.type = SortType.INSERTIONSORT;
-    }
+public class InsertionSort implements Sorter {
 
     @Override
-    protected void sort() {
+    public void sort() {
         System.out.println("Sorting with insertion sort....");
     }
 }

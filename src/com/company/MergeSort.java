@@ -1,13 +1,9 @@
 package com.company;
 
-public class MergeSort extends Sorter {
-
-    public MergeSort () {
-        super.type = SortType.MERGESORT;
-    }
+public class MergeSort implements Sorter {
 
     @Override
-    protected void sort() {
+    public void sort() {
         System.out.println("Sorting with merge sort....");
     }
 }
